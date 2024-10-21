@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 61e57a834d5465e46b989bf5834f2062
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - slotButton: {fileID: 8555037625200131261, guid: 10387c3488af78845815018792b90950, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

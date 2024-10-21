@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5176230e84cc1f749a9c8221d0eeebc1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pauseGameMenu: {instanceID: 0}
+  - audioMixer: {fileID: 24100000, guid: c02f4670be310384eae303fdb206fc0b, type: 2}
+  - pausedSnapshot: {fileID: 7873049832755177115, guid: c02f4670be310384eae303fdb206fc0b, type: 2}
+  - unpausedSnapshot: {fileID: 24500006, guid: c02f4670be310384eae303fdb206fc0b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

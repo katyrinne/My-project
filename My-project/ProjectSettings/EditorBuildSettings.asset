@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 02909c088679ab94fad177b999e0abb2
+  - enabled: 1
+    path: Assets/Scenes/Third.unity
+    guid: 6ffba050b5588ae40a7291c1ef8c9100
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 3927260df6250ed4ca269c11f5ef9191, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: a973b006ea42cdf4f85f1a04377399a2, type: 2}

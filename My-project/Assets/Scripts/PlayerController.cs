@@ -112,7 +112,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name.Equals("Platform_moving_horizontal") || collision.gameObject.name.Equals("vertical_move_platform"))
+        if (collision.gameObject.name.Equals("Platform_moving_horizontal") || collision.gameObject.name.Equals("vertical_move_platform") || collision.gameObject.name.Equals("vertical_move_platform (1)") || collision.gameObject.name.Equals("vertical_move_platform (2)"))
         {
             this.transform.parent = collision.transform;
         }
@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.name.Equals("Platform_moving_horizontal") || collision.gameObject.name.Equals("vertical_move_platform"))
+        if (collision.gameObject.name.Equals("Platform_moving_horizontal") || collision.gameObject.name.Equals("vertical_move_platform") || collision.gameObject.name.Equals("vertical_move_platform (1)") || collision.gameObject.name.Equals("vertical_move_platform (2)"))
         {
             this.transform.parent = null;
         }

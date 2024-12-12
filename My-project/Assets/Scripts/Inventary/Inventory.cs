@@ -15,6 +15,9 @@ public class Inventory : MonoBehaviour
     private int strawberryCount = 0;
     private bool canActivatePortal = false;
 
+    private int rune_redCount = 0;
+    private int rune_blueCount = 0;
+
     private void Start()
     {
         inventoryOn = false;
@@ -46,6 +49,15 @@ public class Inventory : MonoBehaviour
         return strawberryCount >= requiredCount;
     }
 
+        public bool HasEnoughRuneRed(int requiredCount)
+    {
+        return rune_redCount >= requiredCount;
+    }
+
+            public bool HasEnoughRuneBlue(int requiredCount)
+    {
+        return rune_blueCount >= requiredCount;
+    }
 
     public void AddItem(GameObject item, AudioSource pickupSound)
 {
@@ -53,6 +65,24 @@ public class Inventory : MonoBehaviour
     {
         strawberryCount++;
         if (strawberryCount >= 8)
+        {
+            canActivatePortal = true;
+        }
+    }
+
+    else if (item.CompareTag("rune_red"))
+    {
+        rune_redCount++;
+        if (rune_redCount >= 3)
+        {
+            canActivatePortal = true;
+        }
+    }
+
+    else if (item.CompareTag("rune_blue"))
+    {
+        rune_blueCount++;
+        if (rune_blueCount >= 2)
         {
             canActivatePortal = true;
         }

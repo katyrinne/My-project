@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1799643587879760179}
   m_Layer: 5
   m_Name: rune2Button
-  m_TagString: Untagged
+  m_TagString: rune_blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

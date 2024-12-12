@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 public class Portal2 : MonoBehaviour
 {
     private Inventory inventory;
-    public int requiredStrawberries = 8; 
+    public int requiredRune_red = 3; 
+    public int requiredRune_blue = 2; 
 
     private void Start()
     {   
@@ -19,7 +20,7 @@ public class Portal2 : MonoBehaviour
     {
         if (other.CompareTag("Player") && inventory != null)
         {   
-            if (inventory.HasEnoughStrawberries(requiredStrawberries))
+            if (inventory.HasEnoughRuneRed(requiredRune_red) && inventory.HasEnoughRuneBlue(requiredRune_blue))
             {
                 Debug.Log("Player entered the portal with enough strawberries!");
                 SceneManager.LoadScene("Third");

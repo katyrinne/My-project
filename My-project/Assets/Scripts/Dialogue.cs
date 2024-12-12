@@ -31,7 +31,7 @@ public class Dialogue : MonoBehaviour
     public void StartDialogue()
     {
         index = 0;
-        textComponent.text = string.Empty; // Сброс текста перед началом диалога
+        textComponent.text = string.Empty;
         StartCoroutine(TypeLine());
     }
 
